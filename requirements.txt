@@ -1,0 +1,10 @@
+uvicorn
+langgraph
+pydantic
+langchain
+langchain-core
+langchain-openai
+fastapi
+sse-starlette
+jsonpath-ng
+python-dotenv
