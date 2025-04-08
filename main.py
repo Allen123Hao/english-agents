@@ -3,7 +3,7 @@ from pydantic import BaseModel
 from typing import Dict, Any, List
 from dotenv import load_dotenv
 import os
-from agent.translator_azure import create_translator_workflow, Language, TranslationRequest, JsonTranslationRequest, TranslationResponse, LanguageInfo
+from agent.translator import create_translator_workflow, Language, TranslationRequest, JsonTranslationRequest, TranslationResponse, LanguageInfo
 
 # 加载环境变量
 load_dotenv()
